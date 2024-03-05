@@ -1,0 +1,49 @@
+/* Reset Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Neuton", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Container styles to center all elements */
+.container{
+    background: linear-gradient(#92EFFD,#4E65FF);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Quote Container styles to align elements vertically */
+.quoteContainer{
+    background-color: #92EFFD;
+    width: 650px;
+    min-height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Title Styles */
+.title{
+    font-weight: 600;
+}
+
+/* Button styles */
+button{
+    font-size: 18px;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    background-color:#46e1f9 ;
+    font-weight: 400;
+    border: none;
+    border: 1px solid #434343 ;
+}
+button:hover{
+    transform: scale(1.03);
+    background-color:#0ddaf9;
+}
